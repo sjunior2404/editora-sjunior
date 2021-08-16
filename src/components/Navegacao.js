@@ -4,9 +4,7 @@ import { NavLink } from "react-router-dom";
 let linkCorrente = {
   color: "#027399",
 };
-
 const Navegacao = () => (
-    
   <ul>
     <li>
       <NavLink exact activeStyle={linkCorrente} to="/">
